@@ -2,7 +2,11 @@
 
 
    header{position: relative;z-index: 99999999999;}
-
+   /*NAV*/
+   /* div.top{border-bottom: solid 1px rgba(255, 255, 255, 0.5);} */
+   .top-bar, .top-bar ul{background-color:white;}
+   #example-menu ul li a {color:white;font-size: 16px;text-transform: uppercase;}
+   #example-menu ul li a:hover{color:#15AF98;}
 
    p{font-size:16px;}
    .row{max-width:1150px;}
@@ -33,6 +37,7 @@
    .menu-redes-footer{margin-top: 31px;}
       /* Small only */
    @media screen and (max-width: 39.9375em) {
+      #example-menu ul li a:hover{color:black !important;}
       .title-bar{background: white !important;}
       button.icon-menu.float-right{font-size: 32px;color:#464b52;}
       .box-logo-desk{display:none;}
@@ -58,7 +63,7 @@
       .redes-menu{padding-left: 3px !important;}
       .line-form{margin-top: 60px;}
       #example-menu ul li a {color:white !important;font-size: 16px !important; text-transform: uppercase !important;}
-      #example-menu ul li a:hover{color:#15AF98 !important;}
+      #example-menu ul li a:hover{color:black !important;}
 
    } 
    /* Large and up */

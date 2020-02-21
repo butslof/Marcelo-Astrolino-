@@ -13,7 +13,7 @@
     /* Small only */
     @media screen and (max-width: 39.9375em) {
       /* .banner-top-home{ background:url(imgs/banner/banner-topo-home-mob.jpg) no-repeat center ;background-size: cover;    height: 569px;} */
-    .bg-topo{padding-top: 45px;height: 980px;}
+    .bg-topo{padding-top: 45px;height: 1059px;}
     }
     /* Medium and up */
     @media screen and (min-width: 40em) {
